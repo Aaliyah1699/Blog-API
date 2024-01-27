@@ -2,7 +2,7 @@
 
 ## Overview
 
-This ASP.NET Core API serves as the backend for a dynamic blog platform. It leverages C#, Entity Framework Core, and SQLite for efficient CRUD operations on blog posts, images, and categories. The API also implements secure authentication and authorization using JWT tokens. And published to Azure.
+This ASP.NET Core API serves as the backend for a dynamic blog platform. It leverages C#, Entity Framework Core, and SQLite for efficient CRUD operations on blog posts, images, and categories. The API also implements secure authentication and authorization using JWT tokens.
 
 ## Features
 
