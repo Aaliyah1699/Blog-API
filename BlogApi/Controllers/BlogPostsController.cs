@@ -3,7 +3,6 @@ using BlogApi.Models.DTO;
 using BlogApi.Repositories.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 
 namespace BlogApi.Controllers
 {
