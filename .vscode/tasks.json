@@ -36,6 +36,58 @@
                 "${workspaceFolder}/Blog-Api.sln"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "type": "docker-build",
+            "label": "docker-build: debug",
+            "dependsOn": ["build"],
+            "dockerBuild": {
+                "tag": "blogapi:dev",
+                "target": "base",
+                "dockerfile": "${workspaceFolder}/BlogApi/Dockerfile",
+                "context": "${workspaceFolder}",
+                "pull": true
+            },
+            "netCore": {
+                "appProject": "${workspaceFolder}/BlogApi/BlogApi.csproj"
+            }
+        },
+        {
+            "type": "docker-build",
+            "label": "docker-build: release",
+            "dependsOn": ["build"],
+            "dockerBuild": {
+                "tag": "blogapi:latest",
+                "dockerfile": "${workspaceFolder}/BlogApi/Dockerfile",
+                "context": "${workspaceFolder}",
+                "platform": {
+                    "os": "linux",
+                    "architecture": "amd64"
+                },
+                "pull": true
+            },
+            "netCore": {
+                "appProject": "${workspaceFolder}/BlogApi/BlogApi.csproj"
+            }
+        },
+        {
+            "type": "docker-run",
+            "label": "docker-run: debug",
+            "dependsOn": ["docker-build: debug"],
+            "dockerRun": {},
+            "netCore": {
+                "appProject": "${workspaceFolder}/BlogApi/BlogApi.csproj",
+                "enableDebugging": true
+            }
+        },
+        {
+            "type": "docker-run",
+            "label": "docker-run: release",
+            "dependsOn": ["docker-build: release"],
+            "dockerRun": {},
+            "netCore": {
+                "appProject": "${workspaceFolder}/BlogApi/BlogApi.csproj"
+            }
         }
     ]
 }

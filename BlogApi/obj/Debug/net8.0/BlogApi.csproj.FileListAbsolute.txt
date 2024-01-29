@@ -144,4 +144,4 @@
 /Users/aaliyah/Desktop/Blog Server ASP.NET MVC /Blog-Api/BlogApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/aaliyah/Desktop/Blog Server ASP.NET MVC /Blog-Api/BlogApi/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /Users/aaliyah/Desktop/Blog Server ASP.NET MVC /Blog-Api/BlogApi/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
-/Users/aaliyah/Desktop/Blog Server ASP.NET MVC /Blog-Api/BlogApi/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/aaliyah/Desktop/Blog Server ASP.NET MVC /Blog-Api/BlogApi/obj/Debug/net8.0/BlogApi.sourcelink.json
