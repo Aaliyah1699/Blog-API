@@ -145,8 +145,3 @@
 /Users/aaliyah/Desktop/Blog Server ASP.NET MVC /Blog-Api/BlogApi/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /Users/aaliyah/Desktop/Blog Server ASP.NET MVC /Blog-Api/BlogApi/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/aaliyah/Desktop/Blog Server ASP.NET MVC /Blog-Api/BlogApi/obj/Debug/net8.0/BlogApi.sourcelink.json
-/Users/aaliyah/Desktop/Blog Server ASP.NET MVC /Blog-Api/BlogApi/bin/Debug/net8.0/System.Data.SQLite.dll
-/Users/aaliyah/Desktop/Blog Server ASP.NET MVC /Blog-Api/BlogApi/bin/Debug/net8.0/runtimes/linux-x64/native/SQLite.Interop.dll
-/Users/aaliyah/Desktop/Blog Server ASP.NET MVC /Blog-Api/BlogApi/bin/Debug/net8.0/runtimes/osx-x64/native/SQLite.Interop.dll
-/Users/aaliyah/Desktop/Blog Server ASP.NET MVC /Blog-Api/BlogApi/bin/Debug/net8.0/runtimes/win-x64/native/SQLite.Interop.dll
-/Users/aaliyah/Desktop/Blog Server ASP.NET MVC /Blog-Api/BlogApi/bin/Debug/net8.0/runtimes/win-x86/native/SQLite.Interop.dll
