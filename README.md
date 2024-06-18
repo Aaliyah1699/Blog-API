@@ -2,7 +2,7 @@
 
 ## Overview
 
-This ASP.NET Core MVC API serves as the backend for a dynamic blog platform. It leverages C#, Microsoft Entity Framework Core, and SQLite for efficient CRUD operations on blog posts, images, and categories. The API also implements secure authentication and authorization using JWT tokens.
+The Inkwell Serenades, this ASP.NET Core MVC API serves as the backend for a dynamic blog platform. It leverages C#, Microsoft Entity Framework Core, and SQLite for efficient CRUD operations on blog posts, images, and categories. The API also implements secure authentication and authorization using JWT tokens.
 
 ## Check out my [Portfolio💜](https://aaliyahm-portfolio.netlify.app/) 
 
